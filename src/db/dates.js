@@ -10,7 +10,7 @@ export const months = [
     'September', 
     'October', 
     'November', 
-    'Deceember'
+    'December'
 ]
 
 export const days = []
