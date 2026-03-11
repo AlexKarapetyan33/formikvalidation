@@ -56,7 +56,7 @@ export function LoginForm(props) {
                         }
                       </select>
 
-                      <select name="birthMonth" id="" className='slectmonth'>
+                      <select name="birthMonth" id="" className='slectmonth' onChange={handleChange}>
                         <option value="" label='Select Month'></option>
                         {
                             props.months.map((element) => {
